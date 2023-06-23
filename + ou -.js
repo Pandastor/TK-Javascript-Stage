@@ -13,9 +13,9 @@ while (guessp !== nombrep){
     alert("C'est moins !");
    guessp = prompt("Guess again naze !");
   }
-  
+  if (guessp == nombrep){
+  alert("T'as gagné !");
+    break
+}
 }
 
-if (guessp === nombrep){
-  alert("T'as gagné !");
-}
