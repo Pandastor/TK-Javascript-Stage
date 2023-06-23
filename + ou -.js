@@ -1,6 +1,6 @@
-var nombre = prompt("Quel est le nombre à deviner ?");
+var nombre = prompt("Joueur 1 : Quel est le nombre à faire deviner ?");
 var nombrep = parseInt(nombre, 10);
-var guess = prompt("Quel est le nombre ?");
+var guess = prompt("Joueur 2 : Quel est le nombre à deviner alors Potter?");
 var guessp = parseInt(guess,10);
 
 while (guessp !== nombrep){
