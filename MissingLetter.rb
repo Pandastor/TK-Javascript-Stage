@@ -9,6 +9,17 @@ for i in 0..input.count do        #boucle for= for a in ... do
     end
     end
         
+#####Version plus clean ne commençant pas par A#####
+alphabet = "abcedfghijklmnopqrstuvwxyz"
+input = ["c","d","f","g"]
+first_letter = alphabet.index(input[0]) 
 
+for i in 0..input.count do
     
+    if input[i]!= alphabet[i+first_letter] then
+  
+  puts alphabet[i+first_letter]
+  break
+  end
+  end
   
